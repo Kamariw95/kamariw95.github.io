@@ -1,4 +1,5 @@
 System.register(['angular2/core'], function(exports_1) {
+    "use strict";
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -22,8 +23,32 @@ System.register(['angular2/core'], function(exports_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: '<h1>My site built on Angular2</h1>'
-                    }), 
+                        template: '<div class="ui sidebar inverted vertical menu">
+                            < a, class:  = "item" > Home < /a>
+                            < a, class:  = "item" > About, Me: function () { } } / a >
+                        (function () {
+                            function class_1() {
+                            }
+                            return class_1;
+                        })(), "item disabled" > Blog < /a>
+                        < a, (function () {
+                        function class_2() {
+                        }
+                        return class_2;
+                    })() = "item" >
+                        Projects < !--Add, various, projects in a, dropdown, here-- >
+                        /a>
+                        < a, (function () {
+                        function class_3() {
+                        }
+                        return class_3;
+                    })() = "item" > Photos < /a>
+                        < a, (function () {
+                        function class_4() {
+                        }
+                        return class_4;
+                    })() = "item" > Contact < /a>
+                        < /div>'), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
                 return AppComponent;
