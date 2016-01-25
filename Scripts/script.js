@@ -1,0 +1,5 @@
+$(function() {
+  $('.ui.fixed.button').click( function(){
+    $('.ui.sidebar').sidebar('toggle');
+  });
+});
