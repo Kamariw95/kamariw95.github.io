@@ -23,8 +23,7 @@ System.register(['angular2/core'], function(exports_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "<img src=\"resources/images/main-photo.jpeg\">",
-                        styles: ["\n      .ui.sidebar {\n        position: fixed;\n        z-index: 100;\n      }\n      "]
+                        template: "\n      <img class=\"photo\" src=\"resources/images/nyc.jpeg\"/>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
