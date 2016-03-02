@@ -23,7 +23,7 @@ System.register(['angular2/core'], function(exports_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <div class = \"ui one column grid\">\n      <div class =\"site-sect column\" id=\"home\">\n        <!--<img class=\"photo\" src=\"resources/images/nyc.jpeg\"/>-->\n      </div>\n      <div class =\"site-sect column\" id=\"about\">\n        <!--<img class=\"photo\" src=\"resources/images/city-2.jpg\"/>-->\n      </div>\n      <!--<div class =\"site-sect column\" id=\"blog\">\n        <img class=\"photo\" src=\"resources/images/city-7.jpg\"/>\n      </div>-->\n      <div class =\"site-sect column\" id=\"project\">\n        <!--<img class=\"photo\" src=\"resources/images/city-6.jpg\"/>-->\n      </div>\n      <div class =\"site-sect column\" id=\"photos\">\n        <!--<img class=\"photo\" src=\"resources/images/city-8.jpg\"/>-->\n      </div>\n      <div class =\"site-sect column\" id=\"contact\">\n        <!--<img class=\"photo\" src=\"resources/images/city-4.jpg\"/>-->\n      </div>\n    </div>\n    "
+                        template: "\n      <div class =\"my-container\" id=\"home\">\n\n      </div>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
