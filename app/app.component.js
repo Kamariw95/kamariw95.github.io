@@ -24,7 +24,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n      <div class =\"ui vertical segment\">\n\n      </div>\n      <div class =\"ui vertical segment\">\n\n      </div>\n      <div class =\"ui vertical segment\">\n\n      </div>\n      <div class =\"ui vertical segment\">\n\n      </div>\n    "
+                        template: "\n      <div id=\"home\" class =\"ui vertical segment\">\n\n      </div>\n      <div class =\"ui vertical segment\">\n\n      </div>\n      <div class =\"ui vertical segment\">\n\n      </div>\n      <div class =\"ui vertical segment\">\n\n      </div>\n    "
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);

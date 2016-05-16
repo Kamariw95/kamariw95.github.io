@@ -8,3 +8,9 @@ body {
     position: fixed;
     z-index: 100;
   }
+
+/*First Section*/
+
+.home {
+  background-image: url("../images/nyc.jpeg")
+}
