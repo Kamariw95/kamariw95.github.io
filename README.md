@@ -1,2 +1,9 @@
 # kamariw95.github.io
-My webpage on github using Angular2. 
+
+A quick site that'll have: 
+- projects
+- contract work
+- blog? 
+
+
+idk what im doing but its going to be cool.
